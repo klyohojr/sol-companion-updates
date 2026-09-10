@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "channel": "accepted",
+  "accepted": true,
+  "packageName": "world.sol.companion",
+  "versionName": "0.35",
+  "versionCode": 40,
+  "apkFile": "SOL-Companion-v0.35.apk",
+  "apkSha256": "f4fe0ef6434acb5251253e4acd68cdb0f1e28fd0dbd7846a9585a782ac550a18",
+  "signerSha256": "dfa8ec276e8b111a2526217990703aa77e32518c90f8d134254f8e5344376645",
+  "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.35/SOL-Companion-v0.35.apk",
+  "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.35",
+  "source": {
+    "repo": "klyohojr/sol-studio-ops",
+    "workflowRun": 34426647309,
+    "commit": "a494d4b5997f12cb68e565f9f4517d7e85f75591"
+  },
+  "previousAccepted": {
+    "versionName": "0.34",
+    "versionCode": 39,
+    "apkSha256": "fa79493fc17cb88b2936185dc13e6278dfb106288352ee8b73c7273cae1201e0"
+  }
+}
