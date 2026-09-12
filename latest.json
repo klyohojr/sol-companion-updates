@@ -2,22 +2,25 @@
   "schema": 1,
   "channel": "accepted",
   "accepted": true,
+  "distributionStatus": "phone-test-candidate",
+  "formalAcceptance": false,
+  "compatibilityBridge": "Installed Companion builds only consume channel=accepted/accepted=true; this moving pointer exposes RC2 for Kenny phone validation without creating accepted/0.39.json.",
   "packageName": "world.sol.companion",
-  "versionName": "0.38",
-  "versionCode": 43,
-  "apkFile": "SOL-Companion-v0.38.apk",
-  "apkSha256": "35a9a246942ff4f021ea29d246bb4dfc16aa79353a94a17bdbee8221a1fc14b7",
+  "versionName": "0.39",
+  "versionCode": 44,
+  "apkFile": "SOL-Companion-v0.39.apk",
+  "apkSha256": "cc22a03419a6c99d5232e158bfb308c4a49f56715980508b2581c8ddae71e6f5",
   "signerSha256": "dfa8ec276e8b111a2526217990703aa77e32518c90f8d134254f8e5344376645",
-  "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.38/SOL-Companion-v0.38.apk",
-  "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.38",
+  "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.39-rc2/SOL-Companion-v0.39.apk",
+  "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.39-rc2",
   "source": {
     "repo": "klyohojr/sol-studio-ops",
-    "workflowRun": 34555961791,
-    "commit": "69e453590a9e134f8e335b18335390cbd6c8539a"
+    "workflowRun": 34665764850,
+    "commit": "bf333829d7d3fcb86a103ed54258202116c49dfe"
   },
   "previousAccepted": {
-    "versionName": "0.37",
-    "versionCode": 42,
-    "apkSha256": "d15c4926abe7486bc8e3e2317af1b0ce3f9c6ed19e4e6155ea85bda0a5280730"
+    "versionName": "0.38",
+    "versionCode": 43,
+    "apkSha256": "35a9a246942ff4f021ea29d246bb4dfc16aa79353a94a17bdbee8221a1fc14b7"
   }
 }
