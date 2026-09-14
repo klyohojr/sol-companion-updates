@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-09-14T20:25:00Z",
+  "remoteRegistryUrl": "https://raw.githubusercontent.com/klyohojr/sol-companion-updates/main/apk-library.json",
+  "distribution": "github-release",
+  "note": "Bundled fallback snapshot. Companion prefers the public remote registry when it validates successfully.",
+  "builds": [
+    {
+      "id": "sol-companion-v0.39-rc4",
+      "productId": "sol-companion",
+      "title": "SOL Companion",
+      "subtitle": "Portable SOL review hub",
+      "versionName": "0.39",
+      "versionCode": 44,
+      "status": "phone-test-candidate",
+      "statusLabel": "PHONE TEST CANDIDATE",
+      "accepted": false,
+      "recommended": true,
+      "packageName": "world.sol.companion",
+      "fileName": "SOL-Companion-v0.39.apk",
+      "sizeBytes": 177344732,
+      "apkSha256": "2147c6306cd6f8675f7ebae63ad89f1e681ccfaa90c542361ca2299c6fc39944",
+      "signerSha256": "dfa8ec276e8b111a2526217990703aa77e32518c90f8d134254f8e5344376645",
+      "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.39-rc4/SOL-Companion-v0.39.apk",
+      "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.39-rc4",
+      "publishedAt": "2026-09-14T00:36:41Z",
+      "notes": "Current Companion phone-test candidate. Formal physical-phone acceptance is still pending."
+    }
+  ]
+}
