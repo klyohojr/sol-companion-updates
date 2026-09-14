@@ -4,23 +4,29 @@
   "accepted": true,
   "distributionStatus": "phone-test-candidate",
   "formalAcceptance": false,
-  "compatibilityBridge": "Installed Companion builds only consume channel=accepted/accepted=true; this moving pointer exposes RC4 for Kenny phone validation without creating accepted/0.39.json.",
+  "compatibilityBridge": "Installed Companion builds only consume channel=accepted/accepted=true; this moving pointer exposes v0.40 RC1 for Kenny phone validation without creating accepted/0.40.json.",
   "packageName": "world.sol.companion",
-  "versionName": "0.39",
-  "versionCode": 44,
-  "apkFile": "SOL-Companion-v0.39.apk",
-  "apkSha256": "2147c6306cd6f8675f7ebae63ad89f1e681ccfaa90c542361ca2299c6fc39944",
+  "versionName": "0.40",
+  "versionCode": 45,
+  "apkFile": "SOL-Companion-v0.40.apk",
+  "apkSha256": "17c2e058bc9b1b53d6582d99118ed71a5b26a8983f55869522046299c35f5eda",
   "signerSha256": "dfa8ec276e8b111a2526217990703aa77e32518c90f8d134254f8e5344376645",
-  "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.39-rc4/SOL-Companion-v0.39.apk",
-  "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.39-rc4",
+  "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.40-rc1/SOL-Companion-v0.40.apk",
+  "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.40-rc1",
   "source": {
     "repo": "klyohojr/sol-studio-ops",
-    "workflowRun": 34792653618,
-    "commit": "925dd4c080113297fb4ddbc1e441aac2b0a429f8"
+    "workflowRun": 34902368549,
+    "commit": "59294470da49b1d5832d463eb367e6d3bee33deb"
   },
   "previousAccepted": {
     "versionName": "0.38",
     "versionCode": 43,
     "apkSha256": "35a9a246942ff4f021ea29d246bb4dfc16aa79353a94a17bdbee8221a1fc14b7"
+  },
+  "previousCandidate": {
+    "versionName": "0.39",
+    "versionCode": 44,
+    "apkSha256": "2147c6306cd6f8675f7ebae63ad89f1e681ccfaa90c542361ca2299c6fc39944",
+    "formalAcceptance": false
   }
 }
