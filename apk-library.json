@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-14T20:25:00Z",
+  "updatedAt": "2026-09-14T21:59:00Z",
   "remoteRegistryUrl": "https://raw.githubusercontent.com/klyohojr/sol-companion-updates/main/apk-library.json",
   "distribution": "github-release",
-  "note": "Bundled fallback snapshot. Companion prefers the public remote registry when it validates successfully.",
+  "note": "Live APK Library registry. Status labels describe release/test state; every install is independently checked against registered package, version, APK SHA-256 and signer certificate.",
   "builds": [
     {
       "id": "sol-companion-v0.39-rc4",
@@ -25,6 +25,27 @@
       "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.39-rc4",
       "publishedAt": "2026-09-14T00:36:41Z",
       "notes": "Current Companion phone-test candidate. Formal physical-phone acceptance is still pending."
+    },
+    {
+      "id": "sol-mobile-relay-v0.4",
+      "productId": "sol-mobile-relay",
+      "title": "SOL Mobile Relay",
+      "subtitle": "Trusted phone/PC relay service",
+      "versionName": "0.4.0",
+      "versionCode": 4,
+      "status": "current-release",
+      "statusLabel": "CURRENT RELEASE",
+      "accepted": false,
+      "recommended": true,
+      "packageName": "world.sol.mobilerelay",
+      "fileName": "SOL-Mobile-Relay-v0.4.apk",
+      "sizeBytes": 48564,
+      "apkSha256": "59affd9749db366217f9c10b900f3485f78c64156014553112e3199f10d150e4",
+      "signerSha256": "a13132485c0fd1f4dcac0676b21931c60a1c68fd8f36d0df60c1812f77be8e4a",
+      "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-mobile-relay-v0.4/SOL-Mobile-Relay-v0.4.apk",
+      "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-mobile-relay-v0.4",
+      "publishedAt": "2026-09-14T18:46:53Z",
+      "notes": "Signed v0.4 release; adds automatic restart after package replacement while preserving trust/protocol/Tailscale transport."
     }
   ]
 }
