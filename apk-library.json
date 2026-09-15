@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-14T22:13:00Z",
+  "updatedAt": "2026-09-15T02:32:43Z",
   "remoteRegistryUrl": "https://raw.githubusercontent.com/klyohojr/sol-companion-updates/main/apk-library.json",
   "distribution": "github-release",
   "note": "Live APK Library registry. Status labels describe release/test state; every install is independently checked against registered package, version, APK SHA-256 and signer certificate.",
@@ -24,7 +24,7 @@
       "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.40-rc1/SOL-Companion-v0.40.apk",
       "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.40-rc1",
       "publishedAt": "2026-09-14T22:12:22Z",
-      "notes": "Current APK Library phone-test candidate. Built/signed/packaged gates passed; physical Android acceptance remains pending."
+      "notes": "Kenny reports the v0.40 update worked (install/launch success reported). APK Library physical acceptance criteria have not been fully reviewed; formal acceptance remains pending."
     },
     {
       "id": "sol-companion-v0.39-rc4",
@@ -67,6 +67,27 @@
       "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-mobile-relay-v0.4",
       "publishedAt": "2026-09-14T18:46:53Z",
       "notes": "Signed v0.4 release; adds automatic restart after package replacement while preserving trust/protocol/Tailscale transport."
+    },
+    {
+      "id": "sol-gpt-pocket-v0.1.0-rc2",
+      "productId": "sol-gpt-pocket",
+      "title": "SOL GPT Pocket",
+      "subtitle": "Local-first SOL chat client · Unified RC2",
+      "versionName": "0.1.0",
+      "versionCode": 1,
+      "status": "phone-test-candidate",
+      "statusLabel": "PHONE TEST CANDIDATE",
+      "accepted": false,
+      "recommended": true,
+      "packageName": "world.sol.gptpocket",
+      "fileName": "sol-gpt-pocket-v0.1.0-unified-rc2.apk",
+      "sizeBytes": 44052,
+      "apkSha256": "96483309a72ed06e29e86c540942ec7fba7e79a246f799d63b65f51405ad8f29",
+      "signerSha256": "d9a4c6e788da3e81b9349bb6ff6f1a55c0c35261ef911827649d7936c995b946",
+      "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-gpt-pocket-v0.1.0-rc2/sol-gpt-pocket-v0.1.0-unified-rc2.apk",
+      "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-gpt-pocket-v0.1.0-rc2",
+      "publishedAt": "2026-09-14T22:16:31Z",
+      "notes": "Unified RC2 candidate. Published APK bytes, package, version, SHA-256 and signer verified. Registry inclusion does not establish formal acceptance or completion of Companion APK Library phone review."
     }
   ]
 }
