@@ -1,10 +1,31 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-15T02:32:43Z",
+  "updatedAt": "2026-09-15T02:49:32Z",
   "remoteRegistryUrl": "https://raw.githubusercontent.com/klyohojr/sol-companion-updates/main/apk-library.json",
   "distribution": "github-release",
   "note": "Live APK Library registry. Status labels describe release/test state; every install is independently checked against registered package, version, APK SHA-256 and signer certificate.",
   "builds": [
+    {
+      "id": "sol-companion-v0.40-rc2",
+      "productId": "sol-companion",
+      "title": "SOL Companion",
+      "subtitle": "Portable SOL review hub + repaired APK Library portrait layout",
+      "versionName": "0.40",
+      "versionCode": 46,
+      "status": "phone-test-candidate",
+      "statusLabel": "PHONE TEST CANDIDATE",
+      "accepted": false,
+      "recommended": true,
+      "packageName": "world.sol.companion",
+      "fileName": "SOL-Companion-v0.40.apk",
+      "sizeBytes": 177351080,
+      "apkSha256": "b2eb073d13364791a712b30cbf40e04ac349a0b519f27ec7e73e3f9854d40439",
+      "signerSha256": "dfa8ec276e8b111a2526217990703aa77e32518c90f8d134254f8e5344376645",
+      "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.40-rc2/SOL-Companion-v0.40.apk",
+      "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.40-rc2",
+      "publishedAt": "2026-09-15T02:49:32Z",
+      "notes": "RC2 repairs the portrait APK Library overflow observed on Kenny’s Samsung: six bottom-nav items remain on one row and Download/Install, Share, and Copy Link stay within the card. Physical acceptance remains pending."
+    },
     {
       "id": "sol-companion-v0.40-rc1",
       "productId": "sol-companion",
@@ -12,10 +33,10 @@
       "subtitle": "Portable SOL review hub + verified APK Library",
       "versionName": "0.40",
       "versionCode": 45,
-      "status": "phone-test-candidate",
-      "statusLabel": "PHONE TEST CANDIDATE",
+      "status": "superseded-candidate",
+      "statusLabel": "SUPERSEDED CANDIDATE",
       "accepted": false,
-      "recommended": true,
+      "recommended": false,
       "packageName": "world.sol.companion",
       "fileName": "SOL-Companion-v0.40.apk",
       "sizeBytes": 177350208,
@@ -24,7 +45,7 @@
       "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.40-rc1/SOL-Companion-v0.40.apk",
       "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.40-rc1",
       "publishedAt": "2026-09-14T22:12:22Z",
-      "notes": "Kenny reports the v0.40 update worked (install/launch success reported). APK Library physical acceptance criteria have not been fully reviewed; formal acceptance remains pending."
+      "notes": "Physical portrait review exposed clipped Copy Link actions and a wrapped six-item bottom navigation. Superseded by v0.40 RC2/code46; RC1 was never formally accepted."
     },
     {
       "id": "sol-companion-v0.39-rc4",

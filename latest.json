@@ -4,19 +4,19 @@
   "accepted": true,
   "distributionStatus": "phone-test-candidate",
   "formalAcceptance": false,
-  "compatibilityBridge": "Installed Companion builds only consume channel=accepted/accepted=true; this moving pointer exposes v0.40 RC1 for Kenny phone validation without creating accepted/0.40.json.",
+  "compatibilityBridge": "Installed Companion builds only consume channel=accepted/accepted=true; this moving pointer exposes v0.40 RC2/code46 for Kenny phone validation without creating accepted/0.40.json.",
   "packageName": "world.sol.companion",
   "versionName": "0.40",
-  "versionCode": 45,
+  "versionCode": 46,
   "apkFile": "SOL-Companion-v0.40.apk",
-  "apkSha256": "17c2e058bc9b1b53d6582d99118ed71a5b26a8983f55869522046299c35f5eda",
+  "apkSha256": "b2eb073d13364791a712b30cbf40e04ac349a0b519f27ec7e73e3f9854d40439",
   "signerSha256": "dfa8ec276e8b111a2526217990703aa77e32518c90f8d134254f8e5344376645",
-  "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.40-rc1/SOL-Companion-v0.40.apk",
-  "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.40-rc1",
+  "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-companion-v0.40-rc2/SOL-Companion-v0.40.apk",
+  "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-companion-v0.40-rc2",
   "source": {
     "repo": "klyohojr/sol-studio-ops",
-    "workflowRun": 34902368549,
-    "commit": "59294470da49b1d5832d463eb367e6d3bee33deb"
+    "workflowRun": 34922183335,
+    "commit": "aeb29f3b955c89fe590991aa37ed6c5b0473daa8"
   },
   "previousAccepted": {
     "versionName": "0.38",
@@ -24,9 +24,9 @@
     "apkSha256": "35a9a246942ff4f021ea29d246bb4dfc16aa79353a94a17bdbee8221a1fc14b7"
   },
   "previousCandidate": {
-    "versionName": "0.39",
-    "versionCode": 44,
-    "apkSha256": "2147c6306cd6f8675f7ebae63ad89f1e681ccfaa90c542361ca2299c6fc39944",
+    "versionName": "0.40",
+    "versionCode": 45,
+    "apkSha256": "17c2e058bc9b1b53d6582d99118ed71a5b26a8983f55869522046299c35f5eda",
     "formalAcceptance": false
   }
 }
