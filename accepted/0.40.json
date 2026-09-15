@@ -2,9 +2,6 @@
   "schema": 1,
   "channel": "accepted",
   "accepted": true,
-  "distributionStatus": "accepted-release",
-  "formalAcceptance": true,
-  "compatibilityBridge": "v0.40/code46 is formally accepted after physical Samsung review; stable accepted release URL is used.",
   "packageName": "world.sol.companion",
   "versionName": "0.40",
   "versionCode": 46,
@@ -23,10 +20,17 @@
     "versionCode": 43,
     "apkSha256": "35a9a246942ff4f021ea29d246bb4dfc16aa79353a94a17bdbee8221a1fc14b7"
   },
-  "previousCandidate": {
-    "versionName": "0.40",
-    "versionCode": 45,
-    "apkSha256": "17c2e058bc9b1b53d6582d99118ed71a5b26a8983f55869522046299c35f5eda",
-    "formalAcceptance": false
+  "acceptance": {
+    "status": "physical-accepted",
+    "device": "Samsung SM-S948U",
+    "gates": [
+      "portrait-layout",
+      "landscape-layout",
+      "copy-link",
+      "native-share",
+      "verified-download-install",
+      "offline-bundled-fallback"
+    ],
+    "candidateSource": "v0.40 RC2/code46"
   }
 }
