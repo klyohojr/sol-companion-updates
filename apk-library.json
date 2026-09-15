@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-15T23:15:54Z",
+  "updatedAt": "2026-09-15T23:21:30Z",
   "remoteRegistryUrl": "https://raw.githubusercontent.com/klyohojr/sol-companion-updates/main/apk-library.json",
   "distribution": "github-release",
   "note": "Live APK Library registry. Status labels describe release/test state; every install is independently checked against registered package, version, APK SHA-256 and signer certificate.",
@@ -132,16 +132,37 @@
       "notes": "Superseded before physical phone testing by v0.1.1 after fail-closed checkpoint validation and rejected-load atomicity were added. Retained as historical candidate evidence only; do not install."
     },
     {
+      "id": "sol-mobile-relay-v0.8.2",
+      "productId": "sol-mobile-relay",
+      "title": "SOL Mobile Relay",
+      "subtitle": "Trusted phone/PC relay · durable signed Origin research reporting",
+      "versionName": "0.8.2",
+      "versionCode": 11,
+      "status": "phone-test-candidate",
+      "statusLabel": "PHONE TEST CANDIDATE",
+      "accepted": false,
+      "recommended": true,
+      "packageName": "world.sol.mobilerelay",
+      "fileName": "SOL-Mobile-Relay-v0.8.2.apk",
+      "sizeBytes": 71484,
+      "apkSha256": "50f05148487323576e82561fc708af6847f7cacf155dc325c1a43ea11e8105db",
+      "signerSha256": "a13132485c0fd1f4dcac0676b21931c60a1c68fd8f36d0df60c1812f77be8e4a",
+      "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-mobile-relay-v0.8.2/SOL-Mobile-Relay-v0.8.2.apk",
+      "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-mobile-relay-v0.8.2",
+      "publishedAt": "2026-09-15T23:21:01Z",
+      "notes": "Supersedes the earlier code10 Origin-reporting candidate. ResearchQueue now commits the durable local queue before provider success is acknowledged. Physical code11 install/reconnect/report-delivery acceptance remains pending; accepted Relay v0.7 remains the rollback baseline."
+    },
+    {
       "id": "sol-mobile-relay-v0.8.1",
       "productId": "sol-mobile-relay",
       "title": "SOL Mobile Relay",
       "subtitle": "Trusted phone/PC relay · signed Origin research reporting",
       "versionName": "0.8.1",
       "versionCode": 10,
-      "status": "phone-test-candidate",
-      "statusLabel": "PHONE TEST CANDIDATE",
+      "status": "superseded-candidate",
+      "statusLabel": "SUPERSEDED CANDIDATE",
       "accepted": false,
-      "recommended": true,
+      "recommended": false,
       "packageName": "world.sol.mobilerelay",
       "fileName": "SOL-Mobile-Relay-v0.8.1.apk",
       "sizeBytes": 71484,
@@ -150,7 +171,7 @@
       "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-mobile-relay-v0.8.1/SOL-Mobile-Relay-v0.8.1.apk",
       "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-mobile-relay-v0.8.1",
       "publishedAt": "2026-09-15T22:59:25Z",
-      "notes": "Adds signature-protected Origin Lab report submission plus durable queue persistence before acknowledgment. Accepted Relay v0.7 remains the rollback baseline until v0.8.1 is physically installed and its reconnect/report-delivery path is reviewed."
+      "notes": "Superseded before Origin reporting acceptance by v0.8.2. The code10 phone build/public candidate did not provide the queue-before-ack durability guarantee now required for Origin research delivery. Retained as historical candidate evidence only."
     },
     {
       "id": "sol-mobile-relay-v0.7",
