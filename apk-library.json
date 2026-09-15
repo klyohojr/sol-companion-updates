@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-15T23:21:30Z",
+  "updatedAt": "2026-09-15T23:35:19Z",
   "remoteRegistryUrl": "https://raw.githubusercontent.com/klyohojr/sol-companion-updates/main/apk-library.json",
   "distribution": "github-release",
   "note": "Live APK Library registry. Status labels describe release/test state; every install is independently checked against registered package, version, APK SHA-256 and signer certificate.",
@@ -90,16 +90,37 @@
       "notes": "Previous Companion phone-test candidate. Superseded by v0.40 RC1; never formally accepted."
     },
     {
+      "id": "sol-origin-lab-v0.1.2",
+      "productId": "sol-origin-lab",
+      "title": "SOL Origin Lab",
+      "subtitle": "Artificial-life evolution lab · hardened brains · bounded research reporting",
+      "versionName": "0.1.2",
+      "versionCode": 3,
+      "status": "phone-test-candidate",
+      "statusLabel": "PHONE TEST CANDIDATE",
+      "accepted": false,
+      "recommended": true,
+      "packageName": "world.sol.originlab",
+      "fileName": "SOL-Origin-Lab-v0.1.2.apk",
+      "sizeBytes": 232222,
+      "apkSha256": "74e64a05bf001095192d4ade47cb2420f06588c86bbd6b45bbb3b476416daa82",
+      "signerSha256": "a13132485c0fd1f4dcac0676b21931c60a1c68fd8f36d0df60c1812f77be8e4a",
+      "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-origin-lab-v0.1.2/SOL-Origin-Lab-v0.1.2.apk",
+      "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-origin-lab-v0.1.2",
+      "publishedAt": "2026-09-15T23:33:32Z",
+      "notes": "Supersedes v0.1.1 before acceptance. Keeps fail-closed checkpoint restore and phenotype-driven persistent-brain evolution while bounding automatic research reports to major evolutionary transitions or 600 ticks and deduplicating same-tick lifecycle reports. Physical Android acceptance of v0.1.2 remains pending."
+    },
+    {
       "id": "sol-origin-lab-v0.1.1",
       "productId": "sol-origin-lab",
       "title": "SOL Origin Lab",
       "subtitle": "Artificial-life evolution lab · hardened persistent embodied brains",
       "versionName": "0.1.1",
       "versionCode": 2,
-      "status": "phone-test-candidate",
-      "statusLabel": "PHONE TEST CANDIDATE",
+      "status": "superseded-candidate",
+      "statusLabel": "SUPERSEDED CANDIDATE",
       "accepted": false,
-      "recommended": true,
+      "recommended": false,
       "packageName": "world.sol.originlab",
       "fileName": "SOL-Origin-Lab-v0.1.1.apk",
       "sizeBytes": 232138,
@@ -108,7 +129,7 @@
       "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-origin-lab-v0.1.1/SOL-Origin-Lab-v0.1.1.apk",
       "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-origin-lab-v0.1.1",
       "publishedAt": "2026-09-15T23:15:29Z",
-      "notes": "Supersedes v0.1.0 before phone testing. Adds fail-closed persisted-state validation and atomic rejected-load behavior while preserving phenotype-driven stages, persistent learned brains, and measurement-only benchmark scoring. Physical Android acceptance remains pending."
+      "notes": "Physical v0.1.1 launch/render and Origin→Relay→PC research delivery were verified, but the candidate was superseded before acceptance because ordinary population/birth churn emitted research reports too frequently. Retained as physical evidence; do not install."
     },
     {
       "id": "sol-origin-lab-v0.1.0",
