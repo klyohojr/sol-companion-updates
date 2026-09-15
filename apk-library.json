@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-15T02:49:32Z",
+  "updatedAt": "2026-09-15T02:52:37Z",
   "remoteRegistryUrl": "https://raw.githubusercontent.com/klyohojr/sol-companion-updates/main/apk-library.json",
   "distribution": "github-release",
   "note": "Live APK Library registry. Status labels describe release/test state; every install is independently checked against registered package, version, APK SHA-256 and signer certificate.",
@@ -69,16 +69,37 @@
       "notes": "Previous Companion phone-test candidate. Superseded by v0.40 RC1; never formally accepted."
     },
     {
+      "id": "sol-mobile-relay-v0.7",
+      "productId": "sol-mobile-relay",
+      "title": "SOL Mobile Relay",
+      "subtitle": "Trusted phone/PC relay service · Remote self-update accepted",
+      "versionName": "0.7.0",
+      "versionCode": 8,
+      "status": "current-release",
+      "statusLabel": "CURRENT RELEASE",
+      "accepted": true,
+      "recommended": true,
+      "packageName": "world.sol.mobilerelay",
+      "fileName": "SOL-Mobile-Relay-v0.7.apk",
+      "sizeBytes": 56676,
+      "apkSha256": "1f2227509abaa8e887864de3e8e8cf64c8eb051e256394ced12a5c9166854f53",
+      "signerSha256": "a13132485c0fd1f4dcac0676b21931c60a1c68fd8f36d0df60c1812f77be8e4a",
+      "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-mobile-relay-v0.7/SOL-Mobile-Relay-v0.7.apk",
+      "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-mobile-relay-v0.7",
+      "publishedAt": "2026-09-14T22:30:23Z",
+      "notes": "Physically accepted on Samsung via the v0.6.1→v0.7 remote self-update with Android confirmation; package-replace auto-restart, trust/Tailscale reconnect, fresh ping and self_test passed. This acceptance is scoped to SOL Mobile Relay v0.7 and does not imply Companion acceptance."
+    },
+    {
       "id": "sol-mobile-relay-v0.4",
       "productId": "sol-mobile-relay",
       "title": "SOL Mobile Relay",
       "subtitle": "Trusted phone/PC relay service",
       "versionName": "0.4.0",
       "versionCode": 4,
-      "status": "current-release",
-      "statusLabel": "CURRENT RELEASE",
+      "status": "superseded-release",
+      "statusLabel": "SUPERSEDED RELEASE",
       "accepted": false,
-      "recommended": true,
+      "recommended": false,
       "packageName": "world.sol.mobilerelay",
       "fileName": "SOL-Mobile-Relay-v0.4.apk",
       "sizeBytes": 48564,
@@ -87,7 +108,7 @@
       "downloadUrl": "https://github.com/klyohojr/sol-companion-updates/releases/download/sol-mobile-relay-v0.4/SOL-Mobile-Relay-v0.4.apk",
       "releaseUrl": "https://github.com/klyohojr/sol-companion-updates/releases/tag/sol-mobile-relay-v0.4",
       "publishedAt": "2026-09-14T18:46:53Z",
-      "notes": "Signed v0.4 release; adds automatic restart after package replacement while preserving trust/protocol/Tailscale transport."
+      "notes": "Previous Relay release retained for rollback provenance. Superseded by physically accepted v0.7.0; do not present as current."
     },
     {
       "id": "sol-gpt-pocket-v0.1.0-rc2",
